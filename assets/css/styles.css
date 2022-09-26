@@ -68,15 +68,12 @@ a.green:link, a.green:visited{
   .badges{
     padding-top: 30px;
   }
-  .slide{
-    background-color: #353a40;
-    background-image: url(../images/honolulu.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-position-x: 0;
-    height: 550px;
-    background-size: contain;
-    margin-top: 20px;
+
+  .side{
+    width: 100%;
+  }
+  .slide img{
+    width: 100%;
   }
   .slide h3{
     padding-top: 50px;
@@ -87,7 +84,8 @@ a.green:link, a.green:visited{
   }
   .message{
     padding-left: 50px;
-    
+    background-color: #353a40; 
+    min-height: 350px;   
   }
   .form{
     padding-bottom: 40px;
@@ -105,7 +103,7 @@ footer .navbar-collapse ul {
     text-align: center;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 750px) {
     .card {
         flex: 0 1 100%;
     }    
