@@ -52,6 +52,9 @@ a.green:link, a.green:visited{
 .title p{
     margin-bottom: -5px;
 }
+.oradores{
+    margin-bottom: 40px;
+}
 .cards {
     display: flex;
     flex-wrap: wrap;
